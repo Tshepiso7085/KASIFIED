@@ -1,0 +1,1732 @@
+
+/* body */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*::-webkit-scrollbar{
+    width: 1;
+}
+button{
+    cursor: pointer;
+}
+button:active {
+    transform: translateY(4px);
+}
+input {
+ outline: none;
+ border: none;
+ border-bottom: 1px solid black;   
+}
+/* body end */
+
+
+/* home page */
+/* header */
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.top-header{
+    background-color: black;
+    width:100% ;
+    text-align: center;
+}
+.top-header a{
+    text-decoration:none;
+    color: white;
+}
+.header .middle-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    width: 100%;
+    
+}
+.middle-header h2{
+    margin-top: 0.2em;
+    font-size: 2.5em;
+}
+.middle-header .header-icons .iconCart{ 
+    margin-left: 1em;
+}
+.middle-header .header-icons {
+    display: flex;
+}
+.middle-header .header-icons a{
+    text-decoration: none;
+    color: black;
+}
+.middle-header .header-icons span{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 0.16em 0.5em;
+    font-size: 0.7em;
+    font-weight: 500
+    ;
+}
+
+.low-header ul {
+    display: flex;
+    list-style: none;
+    
+}
+.low-header ul li{
+    margin-left: 1em;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    transition: scale(45ms);
+}
+.low-header ul li:hover {
+    scale: 1.1;
+}
+/* header end */
+
+
+
+/* welcome message */
+.sale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 0em;
+    border-radius: 1em;
+}
+
+.sale .sale-message{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.509) url('../images/KASIFIED\ Logo\ -\ Black\ with\ Transparent\ Background\ -\ 5000x5000\ \(machine\).png');
+    border-radius: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    backface-visibility: visible;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 90%;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+    height: 17em;
+    padding-bottom: 2em;
+    
+}
+.container{ 
+    display: inline-block;}
+.header-text{
+    font-size: 2em;
+    letter-spacing: 10px;
+    border-right: 5px solid white;
+    width: 100%;
+
+    white-space: nowrap;
+    overflow: hidden ;
+    animation: 
+        typing 3.5s steps(8),
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    40%{
+        border-color: transparent;
+    }
+}
+@keyframes typing{
+    from{width: 0;}
+}    
+.btn-sales{
+    background: none;
+    color: white;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 2px solid white;
+    border-radius: 0.5em;
+}
+.btn-sales a{
+    text-decoration: none;
+    color: white;
+}
+/* welcome message end */
+
+
+
+/* about */
+.container-about{
+    margin-top: 19em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(237, 235, 235, 0.835) ;
+    padding-top: 2em;
+    height: 32em;
+    border-radius: 20px;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+.container-about h1{
+    text-align: center;
+}
+.about-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-content img{
+    outline: 1px solid black;
+    border-radius: 20px;
+    margin-top: 2em;
+    height: 20em;
+    filter: drop-shadow(14px 3px 5px  rgba(6, 5, 5, 0.604));
+}
+.about-content .text-about{
+    text-align: center;
+    width: 40%;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+.btn-about{
+    margin-top: 2.5em;
+    transition: scale(46ms) ease-in;
+}
+.btn-about button{
+    background-color: rgb(214, 214, 214);
+    box-shadow: 1px solid rgba(0,0,0,0.55);
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    color: rgb(51, 50, 50);
+}
+.btn-about button:hover {
+    scale:1.1;
+}
+.about-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 3em;
+    
+}
+.row-1{
+    width: 85%;
+    margin-bottom: 2em;
+    padding-top: 3em;
+}
+.row-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    margin-bottom: 1em;
+}
+.row-2 img{
+    width: 40%;
+    height: 20em;
+}
+.row-2 .row-text{
+    width: 100%;
+    text-align: justify;
+}
+.row-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.row-3 img{
+    width: 50%;
+    height: auto;
+}
+.row-3 .row-text{
+    width: 100%;
+    text-align: justify;
+}
+/* about end */
+
+
+
+
+/* features */
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5em;
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1000px;
+    margin-left: 9em;
+    
+}
+.icon{
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.features .fa-solid{
+    color: rgb(3, 3, 3);
+    font-size: 35px;
+}
+.features-header{
+    margin-top: 2em;
+    font-size: 2.5em;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 1em;
+    margin-left: 8.5em;
+}
+.grid .text h2{
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 2em;
+}
+.grid .text p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}
+/* features end */
+
+
+/* contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(219, 220, 221, 0.812) ;
+    filter: drop-shadow(14px 3px 5px  rgba(0, 0, 0, 0.018));
+    padding-top: 2em;
+    margin: 2em;
+    border-radius: 20px;
+}
+.contact .contact-header{
+    border-bottom: 2px solid black;
+    font-size: 2.8em;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 1em;
+
+}
+.contactField{
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+.contact .contactField p{
+    float: left;
+}
+.contact input{
+    background: none;
+}
+input[type=text]  {
+    width: 40em;
+    height: 2em;
+}
+input[type=tel]  {
+    width: 40em;
+    height: 2em;
+}
+input[type=email]  {
+    width: 40em;
+    height: 2em;
+}
+.btn1 button{
+    background:rgb(214, 214, 214);
+    color: rgb(51, 50, 50);
+    border: none;
+    height:1.7em;
+    width: 5em;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.btn1 ::hover{
+    background: none;
+    color: black;
+}
+.contact-links{
+    margin-bottom: 3em;
+}
+.contact-links p{
+    font-size:1.5em ;
+    border-bottom: 1px solid black;
+    margin-bottom: 1.3em;
+    padding: 0 25px ;
+}
+.contact-links a{
+    font-size: 1.3em;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#profile-link{
+    margin-left: 1em;
+}
+/* contacts end */
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 100%;
+   
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.text-col1{
+    width: 20em;
+    margin-right: 3em;
+}
+.footer-logo{
+    margin-top: 1.2em;
+    padding: 1em;
+}
+.footer-icons a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    outline: 1px solid white;
+    padding: 0.6em;
+    margin-left: 2em;
+    border-radius: 10px;
+    margin:1.2em;
+    transition: scale(50ms);
+}
+.footer-icons a:hover{
+    scale: 1.1;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer-icons a:hover{
+    scale: 1.1;
+}
+.footer-icons .btn{
+    margin-right:1em;
+}
+.text-col2{
+    width: 15em;
+    padding: 2em;
+}
+.text-col4{
+    width: 15em;
+    padding: 2em;
+}
+.text-col4 h4{
+    margin-top: 1.2em;
+}
+.input-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.7em;
+}
+.input-box .btn-footer{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-top-right-radius : 10px;
+    border-bottom-right-radius : 10px;
+    margin-left: 2px;
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-right:3px;
+    padding-left: 2px;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    background:none;
+    width: 100%;
+    margin-bottom: 0;
+    color: white;
+    border-bottom:1px solid white ;
+}    
+.container-footer-end{
+    margin-left:43%;
+}
+/* footer end */
+/* home page end */
+
+
+
+/* catalogue page */
+
+/* header */
+.shop-header {
+    text-align: center;
+}
+.product-container{
+    text-align: center;
+    transition: transform .5s;
+}
+/* header end */
+/* sale cards */
+.listProduct .item img{
+    width: 90%;
+    height: 14em;
+    border-radius: 20px;
+    filter: drop-shadow(14px 10px 5px  #0009);
+    outline: 1px solid #cfcfcfe9;
+}
+.listProduct{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    max-width: 1280px;
+    gap: 20px;
+    place-items: center;
+}
+.listProduct .item{
+    height: 25em;
+    width: 15em;
+    background-color: rgba(200, 196, 196, 0.681) ;
+    padding: 20px;
+    border-radius: 20px;
+}
+.listProduct .item h2{
+    border-bottom: 1px solid white;
+    padding-right: 2px;
+    font-weight: 500;
+    font-size: large;
+    margin-top: 1em;
+}
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+.listProduct .item button{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    filter: drop-shadow(14px 3px 5px  rgba(0, 0, 0, 0.437));
+}
+.listProduct .item .addCart{
+    margin-top: 6px;
+}
+.listProduct .item .addWish{
+    margin-top: 5px;
+}
+/* sale cards end */
+
+/* cart page */
+.cartTab{
+    width:400px;
+    background-color: #353432;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: -1400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 0.99fr 70px ;
+    /* transition: .5s; */
+}
+body.showCart .cartTab{
+   inset: 0 0 0 auto;
+}
+
+.cartTab h1{
+    border-bottom: 1px solid white;
+    padding-bottom: 1.5em;
+    padding-top: .6em;
+    padding-left: .5em;
+    margin: 0;
+    font-weight: 300;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: #353432;
+}
+
+.cartTab .btn-cart{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 3em;
+}
+.cartTab .btn-cart button{
+    background-color: #fba817;
+    border: none;
+    font-weight: 500;
+}
+.cartTab .btn-cart .close{
+    background-color: #eee;
+}
+.cartTab .listCart .item img{
+    width: 100%;
+    height: 5em;
+    border-radius: 20px;
+    margin-left: 1em;
+}
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+    
+}
+.cartTab .listCart .item:nth-child(1){
+    margin-top: 2em;
+}
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+}
+.listCart .quantity{
+    display: flex;
+}
+.listCart .quantity span , .plus{
+    text-align: center;
+    padding: 0.2em;
+    
+    
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    border: 1px solid white;
+    
+}
+.listCart .item:nth-child(even){
+    background-color: rgba(238, 238, 238, 0.256);
+}
+.listCart{
+    overflow:auto;
+}
+.listCart::-webkit-scrollbar{
+    width:0;
+}
+.cartTotal{
+    float: right;
+    border-top: 1px solid white;
+    padding-right: 2px;
+}
+
+
+/* cart end */
+
+
+
+/* profile */
+.profile-container{
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    height: auto;
+    width: 100;
+}
+.form-box{
+    width: 50%;
+    box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.533);
+    padding: 50px 60px 70px;
+    border-radius: 12px;
+    text-align: center;
+}
+.input-group{
+    height: auto;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.form-box h1::after{
+    content: "";
+    width: 40px;
+    height: 4px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.533);
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field .nameField{
+    max-height: 6px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+.input-field input{
+    width: 90%;
+    height: auto;
+    margin-top: 3em;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.input-field input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+form p{
+    margin-top: 1em;
+    margin-right: 2em;
+    text-align: right;
+    font-size: 0.81em;
+}
+form p a{
+    text-decoration: none;
+    color: black;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+.btn-field button{
+    background-color: aliceblue;
+    box-shadow:  0  0.125rem 0.95rem rgba(125, 125, 125, 0.863);
+    height:2em;
+    margin: 2em;
+    border: none;
+    border-radius: 20px;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.btn-field button.disable{
+    background:rgba(125, 125, 125, 0.863);
+    color: rgba(125, 125, 125, 0.863);
+    box-shadow:  0  0.125rem 0.95rem rgba(125, 125, 125, 0.863);
+}
+
+
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 400px){
+    .header{
+        font-size: 0.2em;
+        width: 100%;
+    }   
+    .product-container .listProduct{
+        font-size: 0.9em;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        place-items: center;
+    }
+    .listProduct .item button{
+        width: 12em;
+    }
+    nav{
+        font-size: 0.89em;
+    }
+    .sale .sale-message{
+        width: 100%;
+    }
+    .sale .sale-message p{
+        font-size: 0.8em;
+    }
+    .about-content img{
+        padding: 3em;
+        margin-top: 0;
+        outline: none;
+    }
+    .container-about{
+        width: 90%;
+        height: auto;
+        margin-top: 2em;
+        padding: 0;
+    }
+    
+    .container-about h1{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .contact .contactField input{
+        font-size: 0.6em;
+        width: 100%;
+    }
+    .contact .contactField p{
+        font-size: 0.6em;
+        float: left;
+    }
+    .profile-container{
+        width: 100%;
+        height:auto;
+        margin: 0;
+        padding: 0;
+    }
+    .input-group{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .form-box{
+        width: 100%;
+        padding: 50px 11px 70px;
+        margin: 2.5em 0;
+    }
+    .input-field input{
+        width: 100%;
+        height: auto;
+        margin-top: 1.3em;
+        font-size: 1.2em;
+    }
+    form p{
+        font-size: 0.1em;
+        margin-right: 1em;
+    } 
+    .btn-field{
+        width: 100%;
+        height: auto;
+    }
+    .btn-field button{
+        height: 15em;
+        flex-basis: 100%;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    .text-col1{
+        font-size:0.8em;
+        width:15em;
+    }
+    .text-col2{
+        font-size:0.8em;
+        width:15em;
+    }
+    .text-col4{
+        font-size:0.8em;
+        width:15em;
+    }
+    footer h2{
+        font-size: 0.99em;
+    }
+    footer{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding-bottom: 1em;
+    }
+}
+@media only screen and (max-width: 767px){
+    body h1,h2{
+        font-size: 1.9em;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+    .header .middle-header{ 
+        display: flex;
+        flex-direction: column
+    }
+    .middle-header .header-icons{
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 1px;
+        margin-bottom: 11.9px;
+    }
+    .middle-header h2{
+        margin-bottom: 0em;
+    }
+    .middle-header .header-icons i{
+        margin-left: 0.5em;
+
+    }
+    .sale{
+        margin-top: 14em;
+        
+    }
+    .sale .sale-message{
+        font-size: 1em;
+        height: 24em;
+    } 
+    .sale .sale-message h2{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .sale .sale-message p{
+        margin: 0.9em;
+        width: 18em;
+    }
+    .btn-sales{
+        background: none;
+        color: white;
+        margin-top: 1.4em;
+        margin-bottom: 1em;
+        padding: 1em;
+        border: 2px solid white;
+        border-radius: 0.5em;
+    }
+    .container-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 88%;
+        height: auto;
+        margin-top: 14em;
+        margin-left: 1.3em;
+        padding-bottom: 2em;
+    }
+    .container-about h1{
+        text-align: center;
+        font-size: 1.5;
+        margin-bottom: 1.4em;
+    }
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-content img{
+        width: 15em;
+        height:auto;
+        margin-top: 0;
+    }
+    .about-content .text-about{
+        text-align: center;
+        width: 90%;
+        margin-left: 0;
+        margin-top: 0.9em;
+    }
+    .about-container{
+        font-size: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-2 img{
+        width: 80%;
+        height: auto;
+        font-size: 2em;
+    }
+    .row-3 img{
+        width: 110%;
+        height: auto;
+        font-size: 3em;
+    }
+    .about-row{
+        margin: 0;
+    }
+    .row-1{
+        width: 100%;
+        text-align: justify;
+    }
+    .row-2{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0;
+        width: 100%;
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0;
+        width: 100%;
+    }
+    .grid{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        font-size: 0.9em;    
+        margin: 0;
+    }
+    .features .fa-solid{
+        color: rgb(3, 3, 3);
+        font-size: 35px;
+    }
+    .features-header{
+        font-size: 1.89em;
+        margin-left: 0;
+    }
+    .grid .text h2{
+        font-size: 1.7em;
+        text-align: center;
+        margin-top: 0em;
+    }
+    .grid .text p{
+        margin-top: 0em;
+        margin-bottom: 0em;
+        font-size: 1em;
+    }
+    .shop-header {
+        text-align: center;
+    }
+    .product-container{
+        margin: 0;
+        margin-bottom: 2em;
+    }
+    .listProduct{
+        font-size: 0.7em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        place-items: center;
+    }
+    .listProduct .item{
+        height: auto;
+    }
+    .cartTab{
+        width:100%;
+    }
+    .cartTab h1{
+        z-index: 1;
+    }
+    .cartTab .listCart .item{
+        display: grid;
+        grid-template-columns: 70px 150px 50px 1fr;
+        gap: 2px;
+        text-align: center;
+        align-items: center;
+        font-size: 0.9em;
+    }
+    .contact{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 2em;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .contact .contactField p{
+        float: left;
+    }
+    .contact input{
+        font-size: 1em;
+        width: 100%;
+    }
+    .btn1 button{
+        background:rgb(214, 214, 214);
+        color: rgb(51, 50, 50);
+        border: none;
+        height:1.7em;
+        width: 6em;
+        margin-bottom: 1.8em;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .btn1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:none;
+        text-align: center;
+        margin: 0;
+    }
+    .contact-links p{
+        border: none;
+    }
+    .form-box{
+        width: 100%;
+        padding: 50px 11px 70px;
+        margin: 2.5em 0;
+    } 
+    .input-group{
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .input-field input{
+        width: 100%;
+        height: auto;
+        margin-top: 1.3em;
+        font-size: 1.2em;
+    }
+    form p{
+        margin-right: 1em;
+        font-size: 1.2em;
+    }
+    .btn-field{
+        width: 100%;
+        height: auto;
+        font-size: 1.2em;
+    }
+    .btn-field button{
+        font-size: 0.6em;
+        height: 3em;
+        width: 5em;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    .footer-logo{
+        margin-top: 0;
+        padding: 0.7em 0.5em;
+    }
+    .row{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5em;
+        margin-right: 5em;
+        font-size: 0.95em;
+    }
+    .text-col1{
+        width: 20em;
+        margin-right: 0;
+    }
+    .text-col2{
+        width: 23em;
+        padding:0.9em 1.4em;
+    }
+    .text-col4{
+        width: 23em;
+        padding:0.9em 1.4em;
+    }
+    .text-col2 h4{
+        margin-top: 1em;
+    }
+    .text-col4 h4{
+        margin-top: 0;
+    }
+    .footer-icons a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        outline: 1px solid white;
+        padding: 0.82em;
+    }
+    .input-box input[type='text']{
+        width: 250em;
+        font-size: 1.2em;
+    } 
+    .container-footer-end{
+        text-align: center;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 991px)and (min-width: 765px){
+    body h1,h2{
+        font-size: 2.8em;
+    }
+    .header{
+        font-size: 1.6em;
+    }
+    .header .middle-header{ 
+        display: flex;
+        justify-content: center;
+        right: 2%;
+    }
+    .middle-header .header-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+        margin-bottom: 11.9px;
+
+    }
+    .middle-header h2{
+        margin-bottom: 0em;
+    }
+
+    .sale{
+        margin-top: 26em;
+    }
+    .sale .sale-message{
+        height: auto;
+    }
+    .sale .sale-message h2{
+        margin-top: 0.5em;
+    }
+    .sale button{
+        font-size: 0.7em;
+    }
+    .container-about{
+        margin-top: 30em;
+        width: 80%;
+        height: auto;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 5em;
+    }
+    
+    .about-content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container-about h1{
+        font-size: 2.8em;
+    }
+    .about-content .text-about{
+        text-align: center;
+        width: 70%;
+        margin-left: 0;
+        margin-top: 2.5em;
+        font-size: 1.5em;
+    }
+    .about-content .text-about button{
+        font-size: 0.9em;
+    }
+    .about-container{
+        font-size: 1.6em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-2 img{
+        width: 80%;
+        height: auto;
+        font-size: 2em;
+    }
+    .row-3 img{
+        width: 110%;
+        height: auto;
+        font-size: 3em;
+    }
+    .about-row{
+        margin: 0;
+    }
+    .row-1{
+        width: 100%;
+        text-align: justify;
+    }
+    .row-2{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0;
+        width: 100%;
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0;
+        width: 100%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em; 
+        width: 60%;   
+        margin: 0;
+    }
+    .features-header{
+        margin-left: 0;
+    }
+    .grid .text p{
+        font-size: 1.3em;
+    }
+    .shop-header {
+        text-align: center;
+    }
+    .product-container{
+        margin: 0;
+        margin-bottom: 2em;
+    }
+    .listProduct{
+        font-size: 1.1em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        place-items: center;
+    }
+    .listProduct .item{
+        height: auto;
+    }
+    .listProduct .item h2{
+        font-size: 1.4em;
+    }
+    .listProduct .item .price{
+        font-size: 1.1em;
+    }
+    .listProduct .item button{
+        font-size: 1.2em;
+        width: 8em;
+    }
+    .cartTab{
+        width:100%;
+    }
+    .contact input{
+        font-size: 1.3em;
+        width: 100%;
+    }
+    .contact .contactField p{
+        float: left;
+    }
+    .profile-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .form-box{
+        width: 90%;
+        margin: 2em 0;
+        padding: 0;
+        font-size: 3em;
+    }
+    .input-field input[type="text"]{
+        font-size: 0.7em;
+        margin-bottom: 1em;
+    }
+    .input-field input[type="email"]{
+        font-size: 0.7em;
+
+    }
+    .input-field input[type="password"]{
+        font-size: 0.7em;
+    }
+    .form-box h1{
+        font-size: 2em;
+    }
+    .form-box h1::after{
+        font-size: 7em;
+        width: 50px;
+        height: 7px;
+    }
+    .input-field input[type="text"]::after{
+        margin-bottom: 2em;
+    }
+    
+    form p{
+        font-size: 0.6em;
+        margin-right: 2em;
+    }
+    form p a{
+        text-decoration: none;
+        color: black;
+    }
+    .btn-field button{
+        width: 8em;
+        font-size: 0.6em;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6em;
+    }
+    .text-col1{
+        font-size: 1.3em;
+    }
+    .text-col2{
+        font-size: 1.2em;
+        width: 25em;
+        padding: 0;
+        margin-top: 1em;
+    }
+    .text-col2 h4{
+        font-size: 1.5em;
+    }
+    .text-col4{
+        font-size: 1.2em;
+        width: 25em;
+        padding: 0;
+        margin-top: 1em;
+    }
+    .text-col4 h4{
+        font-size: 1.5em;
+    }
+    .input-box{
+        margin-top: 1.3em;
+    }
+    .input-box input[type='text']{
+        width: 13em;
+        font-size: 1.2em;
+    } 
+    .input-box input[type='text']::placeholder{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .input-box button{
+        font-size: 1.2em;
+        width: 5em;
+    }
+    .footer-icons {
+        font-size: 2em;
+    }
+    .container-footer-end{
+        text-align: center;
+        font-size: 2.1em;
+        margin: 0;
+    }
+}    
+@media screen and (max-width: 1199px)and (min-width: 992px){
+    body h1,h2{
+        font-size: 2.8em;
+    }
+    .header{
+        font-size: 1.6em;
+    }
+
+    .listProduct{
+        font-size: 1.4em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        place-items: center;
+    }
+    .listProduct .item{
+        height: auto;
+    }
+    .listProduct .item h2{
+        font-size: 1.4em;
+    }
+    .listProduct .item .price{
+        font-size: 1.1em;
+    }
+    .listProduct .item button{
+        font-size: 1.2em;
+        width: 8em;
+    }
+    .cartTab{
+        width:100%;
+    }
+}   
+@media screen and (min-width: 1200px){
+    body h1,h2{
+        font-size: 2.8em;
+    }
+    .header{
+        font-size: 1.6em;
+    }
+    .header .middle-header{ 
+        display: flex;
+        justify-content: center;
+        right: 2%;
+    }
+    .middle-header .header-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+        margin-bottom: 11.9px;
+
+    }
+    .middle-header h2{
+        margin-bottom: 0em;
+    }
+
+    .sale{
+        margin-top: 26em;
+    }
+    .sale .sale-message{
+        height: auto;
+    }
+    .sale .sale-message h2{
+        margin-top: 0.5em;
+    }
+    .sale button{
+        font-size: 0.7em;
+    }
+    .container-about{
+        margin-top: 30em;
+        width: 80%;
+        height: auto;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 5em;
+    }
+    
+    .about-content{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container-about h1{
+        font-size: 2.8em;
+    }
+    .about-content .text-about{
+        text-align: center;
+        width: 70%;
+        margin-left: 0;
+        margin-top: 2.5em;
+        font-size: 1.5em;
+    }
+    .about-content .text-about button{
+        font-size: 0.9em;
+    }
+    .about-container{
+        font-size: 1.6em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-2 img{
+        width: 80%;
+        height: auto;
+        font-size: 2em;
+    }
+    .row-3 img{
+        width: 110%;
+        height: auto;
+        font-size: 3em;
+    }
+    .about-row{
+        margin: 0;
+    }
+    .row-1{
+        width: 100%;
+        text-align: justify;
+    }
+    .row-2{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0;
+        width: 100%;
+    }
+    .row-3{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin: 0;
+        width: 100%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em; 
+        width: 60%;   
+        margin: 0;
+    }
+    .features-header{
+        margin-left: 0;
+    }
+    .grid .text p{
+        font-size: 1.3em;
+    }
+    .shop-header {
+        text-align: center;
+    }
+    .product-container{
+        margin: 0;
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+    }
+    .listProduct{
+        font-size: 1.2em;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.4em;
+        place-items: center;
+    }
+    .cartTab{
+        width:400px;
+        background-color: #353432;
+        color: white;
+        position: fixed;
+        inset: 0 -400em 0 auto;
+        display: grid;
+        grid-template-rows: 70px 0.99fr 70px ;
+        transition: .5s;
+    }
+    .listProduct .item{
+        height: auto;
+    }
+    .listProduct .item h2{
+        font-size: 1.2em;
+    }
+    .listProduct .item .price{
+        font-size: 1.1em;
+    }
+    .listProduct .item button{
+        font-size: 1.2em;
+        width: 8em;
+    }
+    .cartTab{
+        width:30%;
+    }
+    .contact input{
+        font-size: 1.3em;
+        width: 100%;
+    }
+    .contact .contactField p{
+        float: left;
+    }
+    .profile-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .form-box{
+        width: 90%;
+        margin: 2em 0;
+        padding: 0;
+        font-size: 3em;
+    }
+    .input-field input[type="text"]{
+        font-size: 0.7em;
+        margin-bottom: 1em;
+    }
+    .input-field input[type="email"]{
+        font-size: 0.7em;
+
+    }
+    .input-field input[type="password"]{
+        font-size: 0.7em;
+    }
+    .form-box h1{
+        font-size: 2em;
+    }
+    .form-box h1::after{
+        font-size: 7em;
+        width: 50px;
+        height: 7px;
+    }
+    .input-field input[type="text"]::after{
+        margin-bottom: 2em;
+    }
+    
+    form p{
+        font-size: 0.6em;
+        margin-right: 2em;
+    }
+    form p a{
+        text-decoration: none;
+        color: black;
+    }
+    .btn-field button{
+        width: 8em;
+        font-size: 0.6em;
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6em;
+    }
+    .text-col1{
+        font-size: 1.3em;
+    }
+    .text-col2{
+        font-size: 1.2em;
+        width: 25em;
+        padding: 0;
+        margin-top: 1em;
+    }
+    .text-col2 h4{
+        font-size: 1.5em;
+    }
+    .text-col4{
+        font-size: 1.2em;
+        width: 25em;
+        padding: 0;
+        margin-top: 1em;
+    }
+    .text-col4 h4{
+        font-size: 1.5em;
+    }
+    .input-box{
+        margin-top: 1.3em;
+    }
+    .input-box input[type='text']{
+        width: 13em;
+        font-size: 1.2em;
+    } 
+    .input-box input[type='text']::placeholder{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .input-box button{
+        font-size: 1.2em;
+        width: 5em;
+    }
+    .footer-icons {
+        font-size: 2em;
+    }
+    .container-footer-end{
+        text-align: center;
+        font-size: 2.1em;
+        margin: 0;
+    }
+} 
+
+

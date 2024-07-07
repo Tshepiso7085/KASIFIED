@@ -1,0 +1,76 @@
+[
+  {
+    "id":"WHITE GOKU T-SHIRT",
+    "name": "GOKU T-SHIRT",
+    "price": 300,
+    "image": "images/products/tshirts/white goku tee.jpg"
+  },
+  {
+    "id":"BLACK GOKU T-SHIRT",
+    "name": "GOKU T-SHIRT",
+    "price": 300,
+    "image": "images/products/tshirts/black goku tee.jpg"
+  },
+  {
+    "id":"GRAPHIC T-SHIRT",
+    "name": "GRAPHIC T-SHIRT",
+    "price": 300,
+    "image": "images/products/tshirts/cream white T-shirt.jpg"
+  },
+  {
+    "id":"WHITE&GREY COMBO",
+    "name": "WHITE&GREY COMBO",
+    "price": 350,
+    "image": "images/products/tshirts/co-ords white tee and camo pants.jpg"
+  },
+  {
+    "id":"WHITE&PURPLE COMBO",
+    "name": "WHITE&PURPLE COMBO",
+    "price": 350,
+    "image": "images/products/tshirts/white tee and purple co-ords.jpg"
+  },
+  {
+    "id":"WHITE&BROWN COMBO",
+    "name": "WHITE&BROWN COMBO",
+    "price": 350,
+    "image": "images/products/tshirts/white tee and brown co-ords.jpg"
+  },
+
+  {
+    "id":"WHITE GRAPHIC HOODIE",
+    "name": "GRAPHIC HOODIE",
+    "price": 500,
+    "image": "images/products/hoodies/white design hoodie.jpg"
+  },
+  {
+    "id":"BLACK GRAPHIC HOODIE",
+    "name": "GRAPHIC HOODIE",
+    "price": 500,
+    "image": "images/products/hoodies/black design hoodie.jpg"
+  },
+  {
+    "id":"NAVY GRAPHIC HOODIE",
+    "name": "GRAPHIC HOODIE",
+    "price": 500,
+    "image": "images/products/hoodies/navy blue piccaso hoodie.jpg"
+  },
+  {
+    "id":"BLACK AND WHITE BASEBALL JACKET",
+    "name": "BASEBALL JACKET",
+    "price": 600,
+    "image": "images/products/baseball jackets/black and white baseball jacket.jpg"
+  },
+  {
+    "id":" BLACKBASEBALL JACKET",
+    "name": "BASEBALL JACKET",
+    "price": 600,
+    "image": "images/products/baseball jackets/black bassball jacket.jpg"
+  },
+  {
+    "id":" BROWN BASEBALL JACKET",
+    "name": "BASEBALL JACKET",
+    "price": 600,
+    "image": "images/products/baseball jackets/brown baseball jacket.jpg"
+  }
+  
+]
